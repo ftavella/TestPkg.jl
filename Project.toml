@@ -1,0 +1,13 @@
+name = "TestPkg"
+uuid = "d629ae56-6bdb-4cc2-a66c-4b8884e41333"
+authors = ["Franco Tavella"]
+version = "0.1.0"
+
+[compat]
+julia = "1.1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
