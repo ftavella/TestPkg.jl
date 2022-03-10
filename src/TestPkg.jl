@@ -2,7 +2,7 @@ module TestPkg
 
 using DifferentialEquations
 
-export oscillator, solve_ode
+export oscillator, solve_ode, relaxation
 
 function oscillator(u,p,t)
   x, y, z = u
